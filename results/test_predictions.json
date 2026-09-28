@@ -1,0 +1,2449 @@
+{
+ "classes": [
+  "chapati",
+  "dhokla",
+  "idli",
+  "kadai_paneer",
+  "masala_dosa",
+  "pakode",
+  "pav_bhaji",
+  "samosa"
+ ],
+ "total": 304,
+ "correct": 269,
+ "accuracy": 0.8849,
+ "records": [
+  {
+   "file": "test_00054.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\test_00054.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.956,
+   "correct": true
+  },
+  {
+   "file": "test_00147.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\test_00147.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.8922,
+   "correct": true
+  },
+  {
+   "file": "test_00343.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\test_00343.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.9997,
+   "correct": true
+  },
+  {
+   "file": "test_00629.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\test_00629.jpg",
+   "true": "chapati",
+   "pred": "dhokla",
+   "confidence": 0.5692,
+   "correct": false
+  },
+  {
+   "file": "test_00823.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\test_00823.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.9942,
+   "correct": true
+  },
+  {
+   "file": "train_00001.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_00001.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.9422,
+   "correct": true
+  },
+  {
+   "file": "train_00228.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_00228.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.9976,
+   "correct": true
+  },
+  {
+   "file": "train_00351.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_00351.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.9254,
+   "correct": true
+  },
+  {
+   "file": "train_00532.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_00532.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.9995,
+   "correct": true
+  },
+  {
+   "file": "train_00846.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_00846.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.9925,
+   "correct": true
+  },
+  {
+   "file": "train_00865.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_00865.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.989,
+   "correct": true
+  },
+  {
+   "file": "train_00965.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_00965.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.8948,
+   "correct": true
+  },
+  {
+   "file": "train_01159.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_01159.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.9715,
+   "correct": true
+  },
+  {
+   "file": "train_01281.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_01281.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.9871,
+   "correct": true
+  },
+  {
+   "file": "train_01310.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_01310.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.3842,
+   "correct": true
+  },
+  {
+   "file": "train_01714.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_01714.jpg",
+   "true": "chapati",
+   "pred": "masala_dosa",
+   "confidence": 0.4856,
+   "correct": false
+  },
+  {
+   "file": "train_01744.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_01744.jpg",
+   "true": "chapati",
+   "pred": "pakode",
+   "confidence": 0.3876,
+   "correct": false
+  },
+  {
+   "file": "train_01992.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_01992.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.9979,
+   "correct": true
+  },
+  {
+   "file": "train_02024.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_02024.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.9816,
+   "correct": true
+  },
+  {
+   "file": "train_02088.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_02088.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.9994,
+   "correct": true
+  },
+  {
+   "file": "train_02148.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_02148.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.9995,
+   "correct": true
+  },
+  {
+   "file": "train_02362.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_02362.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.9907,
+   "correct": true
+  },
+  {
+   "file": "train_02427.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_02427.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.9967,
+   "correct": true
+  },
+  {
+   "file": "train_02576.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_02576.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.9925,
+   "correct": true
+  },
+  {
+   "file": "train_02915.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_02915.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.9398,
+   "correct": true
+  },
+  {
+   "file": "train_03014.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_03014.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.2879,
+   "correct": true
+  },
+  {
+   "file": "train_03242.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_03242.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.9563,
+   "correct": true
+  },
+  {
+   "file": "train_03360.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_03360.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.9403,
+   "correct": true
+  },
+  {
+   "file": "train_03560.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_03560.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.9958,
+   "correct": true
+  },
+  {
+   "file": "train_03588.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_03588.jpg",
+   "true": "chapati",
+   "pred": "idli",
+   "confidence": 0.2982,
+   "correct": false
+  },
+  {
+   "file": "train_03901.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_03901.jpg",
+   "true": "chapati",
+   "pred": "samosa",
+   "confidence": 0.5365,
+   "correct": false
+  },
+  {
+   "file": "train_04181.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_04181.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.9982,
+   "correct": true
+  },
+  {
+   "file": "train_04404.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_04404.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.9908,
+   "correct": true
+  },
+  {
+   "file": "train_04532.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_04532.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.9948,
+   "correct": true
+  },
+  {
+   "file": "train_04658.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_04658.jpg",
+   "true": "chapati",
+   "pred": "idli",
+   "confidence": 0.9005,
+   "correct": false
+  },
+  {
+   "file": "train_04830.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_04830.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.7576,
+   "correct": true
+  },
+  {
+   "file": "train_05160.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_05160.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.9578,
+   "correct": true
+  },
+  {
+   "file": "train_05283.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\chapati\\train_05283.jpg",
+   "true": "chapati",
+   "pred": "chapati",
+   "confidence": 0.9925,
+   "correct": true
+  },
+  {
+   "file": "test_00196.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\test_00196.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.9997,
+   "correct": true
+  },
+  {
+   "file": "test_00300.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\test_00300.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.9997,
+   "correct": true
+  },
+  {
+   "file": "test_00404.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\test_00404.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.9861,
+   "correct": true
+  },
+  {
+   "file": "test_00550.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\test_00550.jpg",
+   "true": "dhokla",
+   "pred": "pakode",
+   "confidence": 0.5038,
+   "correct": false
+  },
+  {
+   "file": "test_00596.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\test_00596.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.979,
+   "correct": true
+  },
+  {
+   "file": "test_00827.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\test_00827.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.971,
+   "correct": true
+  },
+  {
+   "file": "train_00119.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_00119.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.998,
+   "correct": true
+  },
+  {
+   "file": "train_00127.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_00127.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.994,
+   "correct": true
+  },
+  {
+   "file": "train_00277.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_00277.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.49,
+   "correct": true
+  },
+  {
+   "file": "train_00430.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_00430.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.9916,
+   "correct": true
+  },
+  {
+   "file": "train_00474.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_00474.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.9486,
+   "correct": true
+  },
+  {
+   "file": "train_00753.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_00753.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 1.0,
+   "correct": true
+  },
+  {
+   "file": "train_00782.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_00782.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.9965,
+   "correct": true
+  },
+  {
+   "file": "train_00841.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_00841.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.9988,
+   "correct": true
+  },
+  {
+   "file": "train_01353.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_01353.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.9795,
+   "correct": true
+  },
+  {
+   "file": "train_01356.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_01356.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.9968,
+   "correct": true
+  },
+  {
+   "file": "train_01833.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_01833.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.9994,
+   "correct": true
+  },
+  {
+   "file": "train_01904.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_01904.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.9939,
+   "correct": true
+  },
+  {
+   "file": "train_02025.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_02025.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.9999,
+   "correct": true
+  },
+  {
+   "file": "train_02152.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_02152.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.9766,
+   "correct": true
+  },
+  {
+   "file": "train_02361.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_02361.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.9984,
+   "correct": true
+  },
+  {
+   "file": "train_02382.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_02382.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.9843,
+   "correct": true
+  },
+  {
+   "file": "train_02425.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_02425.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.9992,
+   "correct": true
+  },
+  {
+   "file": "train_02785.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_02785.jpg",
+   "true": "dhokla",
+   "pred": "masala_dosa",
+   "confidence": 0.5865,
+   "correct": false
+  },
+  {
+   "file": "train_03016.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_03016.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.8297,
+   "correct": true
+  },
+  {
+   "file": "train_03106.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_03106.jpg",
+   "true": "dhokla",
+   "pred": "pakode",
+   "confidence": 0.5446,
+   "correct": false
+  },
+  {
+   "file": "train_03372.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_03372.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.9891,
+   "correct": true
+  },
+  {
+   "file": "train_03511.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_03511.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.8279,
+   "correct": true
+  },
+  {
+   "file": "train_03717.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_03717.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.9823,
+   "correct": true
+  },
+  {
+   "file": "train_03738.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_03738.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.9977,
+   "correct": true
+  },
+  {
+   "file": "train_03859.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_03859.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 1.0,
+   "correct": true
+  },
+  {
+   "file": "train_03916.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_03916.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.9206,
+   "correct": true
+  },
+  {
+   "file": "train_04026.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_04026.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.9973,
+   "correct": true
+  },
+  {
+   "file": "train_04251.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_04251.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.9946,
+   "correct": true
+  },
+  {
+   "file": "train_04270.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_04270.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.9973,
+   "correct": true
+  },
+  {
+   "file": "train_04463.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_04463.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.9996,
+   "correct": true
+  },
+  {
+   "file": "train_04666.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_04666.jpg",
+   "true": "dhokla",
+   "pred": "dhokla",
+   "confidence": 0.9998,
+   "correct": true
+  },
+  {
+   "file": "train_05205.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\dhokla\\train_05205.jpg",
+   "true": "dhokla",
+   "pred": "chapati",
+   "confidence": 0.3824,
+   "correct": false
+  },
+  {
+   "file": "test_00050.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\test_00050.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9951,
+   "correct": true
+  },
+  {
+   "file": "test_00381.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\test_00381.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9064,
+   "correct": true
+  },
+  {
+   "file": "test_00411.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\test_00411.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9996,
+   "correct": true
+  },
+  {
+   "file": "test_00727.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\test_00727.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9998,
+   "correct": true
+  },
+  {
+   "file": "test_00791.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\test_00791.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9946,
+   "correct": true
+  },
+  {
+   "file": "train_00117.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_00117.jpg",
+   "true": "idli",
+   "pred": "pakode",
+   "confidence": 0.959,
+   "correct": false
+  },
+  {
+   "file": "train_00324.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_00324.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 1.0,
+   "correct": true
+  },
+  {
+   "file": "train_00453.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_00453.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9987,
+   "correct": true
+  },
+  {
+   "file": "train_00565.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_00565.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9135,
+   "correct": true
+  },
+  {
+   "file": "train_00726.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_00726.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9931,
+   "correct": true
+  },
+  {
+   "file": "train_00788.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_00788.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9999,
+   "correct": true
+  },
+  {
+   "file": "train_01344.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_01344.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9867,
+   "correct": true
+  },
+  {
+   "file": "train_01614.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_01614.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9939,
+   "correct": true
+  },
+  {
+   "file": "train_01789.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_01789.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9489,
+   "correct": true
+  },
+  {
+   "file": "train_01843.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_01843.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9974,
+   "correct": true
+  },
+  {
+   "file": "train_01884.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_01884.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.8157,
+   "correct": true
+  },
+  {
+   "file": "train_01938.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_01938.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9873,
+   "correct": true
+  },
+  {
+   "file": "train_02241.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_02241.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9454,
+   "correct": true
+  },
+  {
+   "file": "train_02321.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_02321.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9858,
+   "correct": true
+  },
+  {
+   "file": "train_02429.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_02429.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9984,
+   "correct": true
+  },
+  {
+   "file": "train_02461.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_02461.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9979,
+   "correct": true
+  },
+  {
+   "file": "train_02493.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_02493.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9999,
+   "correct": true
+  },
+  {
+   "file": "train_02742.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_02742.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9975,
+   "correct": true
+  },
+  {
+   "file": "train_03008.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_03008.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.8944,
+   "correct": true
+  },
+  {
+   "file": "train_03261.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_03261.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9812,
+   "correct": true
+  },
+  {
+   "file": "train_03396.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_03396.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9941,
+   "correct": true
+  },
+  {
+   "file": "train_03693.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_03693.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9998,
+   "correct": true
+  },
+  {
+   "file": "train_03774.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_03774.jpg",
+   "true": "idli",
+   "pred": "pakode",
+   "confidence": 0.3944,
+   "correct": false
+  },
+  {
+   "file": "train_03832.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_03832.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9992,
+   "correct": true
+  },
+  {
+   "file": "train_03858.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_03858.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9995,
+   "correct": true
+  },
+  {
+   "file": "train_03951.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_03951.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9996,
+   "correct": true
+  },
+  {
+   "file": "train_04068.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_04068.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9998,
+   "correct": true
+  },
+  {
+   "file": "train_04088.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_04088.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9468,
+   "correct": true
+  },
+  {
+   "file": "train_04123.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_04123.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9987,
+   "correct": true
+  },
+  {
+   "file": "train_04426.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_04426.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9994,
+   "correct": true
+  },
+  {
+   "file": "train_04601.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_04601.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9791,
+   "correct": true
+  },
+  {
+   "file": "train_04628.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_04628.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9893,
+   "correct": true
+  },
+  {
+   "file": "train_05131.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\idli\\train_05131.jpg",
+   "true": "idli",
+   "pred": "idli",
+   "confidence": 0.9944,
+   "correct": true
+  },
+  {
+   "file": "test_00310.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\test_00310.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.9916,
+   "correct": true
+  },
+  {
+   "file": "test_00313.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\test_00313.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.9799,
+   "correct": true
+  },
+  {
+   "file": "test_00815.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\test_00815.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.4675,
+   "correct": true
+  },
+  {
+   "file": "train_00380.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_00380.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.9747,
+   "correct": true
+  },
+  {
+   "file": "train_00549.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_00549.jpg",
+   "true": "kadai_paneer",
+   "pred": "pakode",
+   "confidence": 0.6562,
+   "correct": false
+  },
+  {
+   "file": "train_00600.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_00600.jpg",
+   "true": "kadai_paneer",
+   "pred": "pav_bhaji",
+   "confidence": 0.6538,
+   "correct": false
+  },
+  {
+   "file": "train_00884.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_00884.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.9966,
+   "correct": true
+  },
+  {
+   "file": "train_00910.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_00910.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.9879,
+   "correct": true
+  },
+  {
+   "file": "train_00924.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_00924.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.6481,
+   "correct": true
+  },
+  {
+   "file": "train_01016.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_01016.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.5983,
+   "correct": true
+  },
+  {
+   "file": "train_01027.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_01027.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.9954,
+   "correct": true
+  },
+  {
+   "file": "train_01285.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_01285.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.9759,
+   "correct": true
+  },
+  {
+   "file": "train_01376.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_01376.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.8957,
+   "correct": true
+  },
+  {
+   "file": "train_01469.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_01469.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.8825,
+   "correct": true
+  },
+  {
+   "file": "train_01474.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_01474.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.4669,
+   "correct": true
+  },
+  {
+   "file": "train_02623.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_02623.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.8439,
+   "correct": true
+  },
+  {
+   "file": "train_02637.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_02637.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.5498,
+   "correct": true
+  },
+  {
+   "file": "train_02912.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_02912.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.9931,
+   "correct": true
+  },
+  {
+   "file": "train_02929.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_02929.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.8359,
+   "correct": true
+  },
+  {
+   "file": "train_02964.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_02964.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.9233,
+   "correct": true
+  },
+  {
+   "file": "train_02971.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_02971.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.9094,
+   "correct": true
+  },
+  {
+   "file": "train_03110.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_03110.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.9865,
+   "correct": true
+  },
+  {
+   "file": "train_03191.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_03191.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.9254,
+   "correct": true
+  },
+  {
+   "file": "train_03658.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_03658.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.9973,
+   "correct": true
+  },
+  {
+   "file": "train_03714.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_03714.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.9822,
+   "correct": true
+  },
+  {
+   "file": "train_03732.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_03732.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.947,
+   "correct": true
+  },
+  {
+   "file": "train_03767.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_03767.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.996,
+   "correct": true
+  },
+  {
+   "file": "train_03985.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_03985.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.9953,
+   "correct": true
+  },
+  {
+   "file": "train_04174.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_04174.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.9861,
+   "correct": true
+  },
+  {
+   "file": "train_04204.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_04204.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.9485,
+   "correct": true
+  },
+  {
+   "file": "train_04283.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_04283.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.9557,
+   "correct": true
+  },
+  {
+   "file": "train_04299.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_04299.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.9474,
+   "correct": true
+  },
+  {
+   "file": "train_04451.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_04451.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.5626,
+   "correct": true
+  },
+  {
+   "file": "train_04727.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_04727.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.4616,
+   "correct": true
+  },
+  {
+   "file": "train_04841.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_04841.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.9735,
+   "correct": true
+  },
+  {
+   "file": "train_05140.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_05140.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.8386,
+   "correct": true
+  },
+  {
+   "file": "train_05255.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_05255.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.9986,
+   "correct": true
+  },
+  {
+   "file": "train_05306.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\kadai_paneer\\train_05306.jpg",
+   "true": "kadai_paneer",
+   "pred": "kadai_paneer",
+   "confidence": 0.9992,
+   "correct": true
+  },
+  {
+   "file": "test_00134.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\test_00134.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.9955,
+   "correct": true
+  },
+  {
+   "file": "test_00143.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\test_00143.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.9993,
+   "correct": true
+  },
+  {
+   "file": "test_00361.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\test_00361.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.9944,
+   "correct": true
+  },
+  {
+   "file": "test_00865.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\test_00865.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.7102,
+   "correct": true
+  },
+  {
+   "file": "train_00249.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_00249.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.8073,
+   "correct": true
+  },
+  {
+   "file": "train_00574.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_00574.jpg",
+   "true": "masala_dosa",
+   "pred": "chapati",
+   "confidence": 0.3937,
+   "correct": false
+  },
+  {
+   "file": "train_00999.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_00999.jpg",
+   "true": "masala_dosa",
+   "pred": "chapati",
+   "confidence": 0.5692,
+   "correct": false
+  },
+  {
+   "file": "train_01230.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_01230.jpg",
+   "true": "masala_dosa",
+   "pred": "chapati",
+   "confidence": 0.7403,
+   "correct": false
+  },
+  {
+   "file": "train_01302.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_01302.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.9984,
+   "correct": true
+  },
+  {
+   "file": "train_01365.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_01365.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.7322,
+   "correct": true
+  },
+  {
+   "file": "train_01488.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_01488.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.9543,
+   "correct": true
+  },
+  {
+   "file": "train_01647.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_01647.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.9013,
+   "correct": true
+  },
+  {
+   "file": "train_01830.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_01830.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.7874,
+   "correct": true
+  },
+  {
+   "file": "train_02012.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_02012.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.9979,
+   "correct": true
+  },
+  {
+   "file": "train_02013.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_02013.jpg",
+   "true": "masala_dosa",
+   "pred": "pakode",
+   "confidence": 0.8523,
+   "correct": false
+  },
+  {
+   "file": "train_02136.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_02136.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.975,
+   "correct": true
+  },
+  {
+   "file": "train_02235.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_02235.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.9979,
+   "correct": true
+  },
+  {
+   "file": "train_02387.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_02387.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.9238,
+   "correct": true
+  },
+  {
+   "file": "train_02464.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_02464.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.9992,
+   "correct": true
+  },
+  {
+   "file": "train_02541.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_02541.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.7665,
+   "correct": true
+  },
+  {
+   "file": "train_02796.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_02796.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.8251,
+   "correct": true
+  },
+  {
+   "file": "train_03144.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_03144.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.9201,
+   "correct": true
+  },
+  {
+   "file": "train_03179.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_03179.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.9975,
+   "correct": true
+  },
+  {
+   "file": "train_03238.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_03238.jpg",
+   "true": "masala_dosa",
+   "pred": "samosa",
+   "confidence": 0.7911,
+   "correct": false
+  },
+  {
+   "file": "train_03554.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_03554.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.8316,
+   "correct": true
+  },
+  {
+   "file": "train_03721.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_03721.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.9888,
+   "correct": true
+  },
+  {
+   "file": "train_03835.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_03835.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.9083,
+   "correct": true
+  },
+  {
+   "file": "train_04022.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_04022.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.9992,
+   "correct": true
+  },
+  {
+   "file": "train_04205.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_04205.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.989,
+   "correct": true
+  },
+  {
+   "file": "train_04246.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_04246.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.9239,
+   "correct": true
+  },
+  {
+   "file": "train_04552.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_04552.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.9906,
+   "correct": true
+  },
+  {
+   "file": "train_04629.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_04629.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.8051,
+   "correct": true
+  },
+  {
+   "file": "train_04675.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_04675.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.9163,
+   "correct": true
+  },
+  {
+   "file": "train_04724.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_04724.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.6113,
+   "correct": true
+  },
+  {
+   "file": "train_04962.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_04962.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.8858,
+   "correct": true
+  },
+  {
+   "file": "train_05208.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_05208.jpg",
+   "true": "masala_dosa",
+   "pred": "chapati",
+   "confidence": 0.7918,
+   "correct": false
+  },
+  {
+   "file": "train_05221.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_05221.jpg",
+   "true": "masala_dosa",
+   "pred": "samosa",
+   "confidence": 0.4803,
+   "correct": false
+  },
+  {
+   "file": "train_05321.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\masala_dosa\\train_05321.jpg",
+   "true": "masala_dosa",
+   "pred": "masala_dosa",
+   "confidence": 0.8809,
+   "correct": true
+  },
+  {
+   "file": "test_00000.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\test_00000.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9997,
+   "correct": true
+  },
+  {
+   "file": "test_00244.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\test_00244.jpg",
+   "true": "pakode",
+   "pred": "chapati",
+   "confidence": 0.7305,
+   "correct": false
+  },
+  {
+   "file": "test_00399.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\test_00399.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.928,
+   "correct": true
+  },
+  {
+   "file": "test_00426.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\test_00426.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9975,
+   "correct": true
+  },
+  {
+   "file": "test_00625.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\test_00625.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9182,
+   "correct": true
+  },
+  {
+   "file": "test_00764.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\test_00764.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.8391,
+   "correct": true
+  },
+  {
+   "file": "test_00796.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\test_00796.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9809,
+   "correct": true
+  },
+  {
+   "file": "train_00231.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_00231.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9905,
+   "correct": true
+  },
+  {
+   "file": "train_00292.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_00292.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9266,
+   "correct": true
+  },
+  {
+   "file": "train_00493.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_00493.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.8905,
+   "correct": true
+  },
+  {
+   "file": "train_00501.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_00501.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9997,
+   "correct": true
+  },
+  {
+   "file": "train_00563.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_00563.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9859,
+   "correct": true
+  },
+  {
+   "file": "train_00579.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_00579.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9493,
+   "correct": true
+  },
+  {
+   "file": "train_00660.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_00660.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9972,
+   "correct": true
+  },
+  {
+   "file": "train_01264.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_01264.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.8676,
+   "correct": true
+  },
+  {
+   "file": "train_01583.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_01583.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9904,
+   "correct": true
+  },
+  {
+   "file": "train_01709.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_01709.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9661,
+   "correct": true
+  },
+  {
+   "file": "train_02080.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_02080.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9468,
+   "correct": true
+  },
+  {
+   "file": "train_02128.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_02128.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.994,
+   "correct": true
+  },
+  {
+   "file": "train_02257.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_02257.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.8184,
+   "correct": true
+  },
+  {
+   "file": "train_02357.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_02357.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9941,
+   "correct": true
+  },
+  {
+   "file": "train_02426.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_02426.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9992,
+   "correct": true
+  },
+  {
+   "file": "train_02638.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_02638.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9596,
+   "correct": true
+  },
+  {
+   "file": "train_02679.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_02679.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9834,
+   "correct": true
+  },
+  {
+   "file": "train_02730.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_02730.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9997,
+   "correct": true
+  },
+  {
+   "file": "train_02784.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_02784.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9986,
+   "correct": true
+  },
+  {
+   "file": "train_03629.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_03629.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9922,
+   "correct": true
+  },
+  {
+   "file": "train_03659.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_03659.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.5303,
+   "correct": true
+  },
+  {
+   "file": "train_03699.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_03699.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.6316,
+   "correct": true
+  },
+  {
+   "file": "train_03777.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_03777.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9045,
+   "correct": true
+  },
+  {
+   "file": "train_03946.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_03946.jpg",
+   "true": "pakode",
+   "pred": "dhokla",
+   "confidence": 0.9583,
+   "correct": false
+  },
+  {
+   "file": "train_04456.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_04456.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9823,
+   "correct": true
+  },
+  {
+   "file": "train_04843.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_04843.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9998,
+   "correct": true
+  },
+  {
+   "file": "train_04887.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_04887.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9974,
+   "correct": true
+  },
+  {
+   "file": "train_04947.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_04947.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9999,
+   "correct": true
+  },
+  {
+   "file": "train_04956.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_04956.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 1.0,
+   "correct": true
+  },
+  {
+   "file": "train_05040.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_05040.jpg",
+   "true": "pakode",
+   "pred": "kadai_paneer",
+   "confidence": 0.6264,
+   "correct": false
+  },
+  {
+   "file": "train_05126.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pakode\\train_05126.jpg",
+   "true": "pakode",
+   "pred": "pakode",
+   "confidence": 0.9932,
+   "correct": true
+  },
+  {
+   "file": "test_00024.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\test_00024.jpg",
+   "true": "pav_bhaji",
+   "pred": "kadai_paneer",
+   "confidence": 0.8802,
+   "correct": false
+  },
+  {
+   "file": "test_00362.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\test_00362.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.9995,
+   "correct": true
+  },
+  {
+   "file": "test_00496.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\test_00496.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.9985,
+   "correct": true
+  },
+  {
+   "file": "test_00547.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\test_00547.jpg",
+   "true": "pav_bhaji",
+   "pred": "pakode",
+   "confidence": 0.3918,
+   "correct": false
+  },
+  {
+   "file": "test_00564.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\test_00564.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.8947,
+   "correct": true
+  },
+  {
+   "file": "test_00768.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\test_00768.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.9972,
+   "correct": true
+  },
+  {
+   "file": "train_00212.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_00212.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.9925,
+   "correct": true
+  },
+  {
+   "file": "train_00222.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_00222.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.5535,
+   "correct": true
+  },
+  {
+   "file": "train_00664.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_00664.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.9947,
+   "correct": true
+  },
+  {
+   "file": "train_00777.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_00777.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.9657,
+   "correct": true
+  },
+  {
+   "file": "train_00795.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_00795.jpg",
+   "true": "pav_bhaji",
+   "pred": "kadai_paneer",
+   "confidence": 0.75,
+   "correct": false
+  },
+  {
+   "file": "train_00817.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_00817.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 1.0,
+   "correct": true
+  },
+  {
+   "file": "train_01185.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_01185.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.998,
+   "correct": true
+  },
+  {
+   "file": "train_01244.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_01244.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.9882,
+   "correct": true
+  },
+  {
+   "file": "train_01571.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_01571.jpg",
+   "true": "pav_bhaji",
+   "pred": "kadai_paneer",
+   "confidence": 0.7881,
+   "correct": false
+  },
+  {
+   "file": "train_01682.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_01682.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.9624,
+   "correct": true
+  },
+  {
+   "file": "train_01780.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_01780.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.9534,
+   "correct": true
+  },
+  {
+   "file": "train_02046.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_02046.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.9714,
+   "correct": true
+  },
+  {
+   "file": "train_02193.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_02193.jpg",
+   "true": "pav_bhaji",
+   "pred": "kadai_paneer",
+   "confidence": 0.2657,
+   "correct": false
+  },
+  {
+   "file": "train_02194.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_02194.jpg",
+   "true": "pav_bhaji",
+   "pred": "pakode",
+   "confidence": 0.4168,
+   "correct": false
+  },
+  {
+   "file": "train_02323.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_02323.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.9973,
+   "correct": true
+  },
+  {
+   "file": "train_02417.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_02417.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.9757,
+   "correct": true
+  },
+  {
+   "file": "train_02663.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_02663.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.7133,
+   "correct": true
+  },
+  {
+   "file": "train_02817.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_02817.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.9155,
+   "correct": true
+  },
+  {
+   "file": "train_02888.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_02888.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.9764,
+   "correct": true
+  },
+  {
+   "file": "train_02989.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_02989.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.9594,
+   "correct": true
+  },
+  {
+   "file": "train_03051.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_03051.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.9992,
+   "correct": true
+  },
+  {
+   "file": "train_03422.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_03422.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 1.0,
+   "correct": true
+  },
+  {
+   "file": "train_03613.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_03613.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.9258,
+   "correct": true
+  },
+  {
+   "file": "train_03626.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_03626.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.9969,
+   "correct": true
+  },
+  {
+   "file": "train_03840.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_03840.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.9935,
+   "correct": true
+  },
+  {
+   "file": "train_04173.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_04173.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.9194,
+   "correct": true
+  },
+  {
+   "file": "train_04313.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_04313.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.9686,
+   "correct": true
+  },
+  {
+   "file": "train_04406.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_04406.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.9208,
+   "correct": true
+  },
+  {
+   "file": "train_04668.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_04668.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.5084,
+   "correct": true
+  },
+  {
+   "file": "train_04974.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_04974.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.9392,
+   "correct": true
+  },
+  {
+   "file": "train_05002.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_05002.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.9951,
+   "correct": true
+  },
+  {
+   "file": "train_05135.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\pav_bhaji\\train_05135.jpg",
+   "true": "pav_bhaji",
+   "pred": "pav_bhaji",
+   "confidence": 0.925,
+   "correct": true
+  },
+  {
+   "file": "test_00071.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\test_00071.jpg",
+   "true": "samosa",
+   "pred": "pakode",
+   "confidence": 0.4333,
+   "correct": false
+  },
+  {
+   "file": "test_00072.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\test_00072.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.8814,
+   "correct": true
+  },
+  {
+   "file": "test_00176.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\test_00176.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.817,
+   "correct": true
+  },
+  {
+   "file": "test_00529.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\test_00529.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.982,
+   "correct": true
+  },
+  {
+   "file": "test_00723.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\test_00723.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.968,
+   "correct": true
+  },
+  {
+   "file": "train_00060.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_00060.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.4172,
+   "correct": true
+  },
+  {
+   "file": "train_00514.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_00514.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.992,
+   "correct": true
+  },
+  {
+   "file": "train_00594.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_00594.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.9858,
+   "correct": true
+  },
+  {
+   "file": "train_01214.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_01214.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.9991,
+   "correct": true
+  },
+  {
+   "file": "train_01243.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_01243.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.9884,
+   "correct": true
+  },
+  {
+   "file": "train_01289.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_01289.jpg",
+   "true": "samosa",
+   "pred": "masala_dosa",
+   "confidence": 0.7152,
+   "correct": false
+  },
+  {
+   "file": "train_01369.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_01369.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.9919,
+   "correct": true
+  },
+  {
+   "file": "train_01385.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_01385.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.8842,
+   "correct": true
+  },
+  {
+   "file": "train_01464.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_01464.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.9996,
+   "correct": true
+  },
+  {
+   "file": "train_01503.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_01503.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.989,
+   "correct": true
+  },
+  {
+   "file": "train_01937.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_01937.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.9993,
+   "correct": true
+  },
+  {
+   "file": "train_02517.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_02517.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.9841,
+   "correct": true
+  },
+  {
+   "file": "train_02714.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_02714.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.6551,
+   "correct": true
+  },
+  {
+   "file": "train_03088.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_03088.jpg",
+   "true": "samosa",
+   "pred": "pakode",
+   "confidence": 0.7639,
+   "correct": false
+  },
+  {
+   "file": "train_03101.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_03101.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.9999,
+   "correct": true
+  },
+  {
+   "file": "train_03115.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_03115.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.8531,
+   "correct": true
+  },
+  {
+   "file": "train_03289.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_03289.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.5007,
+   "correct": true
+  },
+  {
+   "file": "train_03707.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_03707.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.5899,
+   "correct": true
+  },
+  {
+   "file": "train_03719.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_03719.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.9128,
+   "correct": true
+  },
+  {
+   "file": "train_03844.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_03844.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.8856,
+   "correct": true
+  },
+  {
+   "file": "train_03849.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_03849.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.9971,
+   "correct": true
+  },
+  {
+   "file": "train_04065.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_04065.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.3959,
+   "correct": true
+  },
+  {
+   "file": "train_04102.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_04102.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.9863,
+   "correct": true
+  },
+  {
+   "file": "train_04142.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_04142.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.9975,
+   "correct": true
+  },
+  {
+   "file": "train_04263.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_04263.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.96,
+   "correct": true
+  },
+  {
+   "file": "train_04399.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_04399.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.9923,
+   "correct": true
+  },
+  {
+   "file": "train_04608.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_04608.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.993,
+   "correct": true
+  },
+  {
+   "file": "train_05080.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_05080.jpg",
+   "true": "samosa",
+   "pred": "pakode",
+   "confidence": 0.7407,
+   "correct": false
+  },
+  {
+   "file": "train_05164.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_05164.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.9835,
+   "correct": true
+  },
+  {
+   "file": "train_05199.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_05199.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.9766,
+   "correct": true
+  },
+  {
+   "file": "train_05235.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_05235.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.9996,
+   "correct": true
+  },
+  {
+   "file": "train_05239.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_05239.jpg",
+   "true": "samosa",
+   "pred": "pakode",
+   "confidence": 0.3783,
+   "correct": false
+  },
+  {
+   "file": "train_05312.jpg",
+   "relpath": "C:\\Users\\saswa\\IBM-project\\1_vegetarian_food_image_classification\\data\\test\\samosa\\train_05312.jpg",
+   "true": "samosa",
+   "pred": "samosa",
+   "confidence": 0.7842,
+   "correct": true
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+Test samples : 112
+Test accuracy: 0.9911
+
+Per-class report:
+
+              precision    recall  f1-score   support
+
+        dosa       1.00      1.00      1.00        16
+        idli       1.00      1.00      1.00        16
+       lassi       1.00      1.00      1.00        16
+paneer_curry       1.00      0.94      0.97        16
+      samosa       1.00      1.00      1.00        16
+ veg_biryani       0.94      1.00      0.97        16
+   veg_thali       1.00      1.00      1.00        16
+
+    accuracy                           0.99       112
+   macro avg       0.99      0.99      0.99       112
+weighted avg       0.99      0.99      0.99       112

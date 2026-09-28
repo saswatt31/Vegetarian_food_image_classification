@@ -1,0 +1,22 @@
+{
+ "classes": [
+  "chapati",
+  "dhokla",
+  "idli",
+  "kadai_paneer",
+  "masala_dosa",
+  "pakode",
+  "pav_bhaji",
+  "samosa"
+ ],
+ "category_of": {
+  "idli": "Breakfast",
+  "masala_dosa": "Breakfast",
+  "dhokla": "Breakfast",
+  "pakode": "Snack",
+  "samosa": "Snack",
+  "pav_bhaji": "Main Meal",
+  "kadai_paneer": "Main Meal",
+  "chapati": "Main Meal"
+ }
+}

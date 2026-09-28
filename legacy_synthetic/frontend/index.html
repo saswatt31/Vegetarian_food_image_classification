@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ThaliScan · Vegetarian Food Image Classification</title>
+<meta name="description" content="ResNet-18 transfer-learning classifier for seven Indian vegetarian dishes — interactive demo with real exported predictions.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ======================= NAV ======================= -->
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark">🍽</span>
+      <span class="brand-name">Thali<span class="brand-accent">Scan</span></span>
+      <span class="brand-tag">veg·7 classifier</span>
+    </a>
+    <nav class="links">
+      <a href="#demo">Try it</a>
+      <a href="#menu">The menu</a>
+      <a href="#results">Results</a>
+      <a href="#pipeline">How it works</a>
+    </nav>
+    <div class="nav-pill" title="Test accuracy on 112 held-out images">
+      <span class="dot"></span> 99.11% test accuracy
+    </div>
+  </div>
+</header>
+
+<!-- ======================= HERO ======================= -->
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="kicker">ResNet-18 · Transfer Learning · 7 Vegetarian Dishes</p>
+      <h1>Know what’s <em>actually</em> on the plate.</h1>
+      <p class="lede">A frozen ImageNet backbone, a 3,591-parameter head, and six
+      CPU-minutes of training — scoring <strong>0.9911 test accuracy</strong> across
+      dosa, idli, paneer curry, biryani, thali, samosa and lassi.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#demo">Try the live demo</a>
+        <a class="btn btn-ghost" href="#pipeline">See how it works</a>
+      </div>
+      <div class="stat-row">
+        <div class="stat"><span class="stat-n" data-count="99.11" data-suffix="%">0</span><span class="stat-l">test accuracy</span></div>
+        <div class="stat"><span class="stat-n" data-count="1120" data-suffix="">0</span><span class="stat-l">dataset images</span></div>
+        <div class="stat"><span class="stat-n" data-count="3591" data-suffix="">0</span><span class="stat-l">trainable params</span></div>
+        <div class="stat"><span class="stat-n" data-count="4" data-suffix="">0</span><span class="stat-l">meal categories</span></div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="plate-card">
+        <div class="plate-img" id="heroImg">
+          <img src="assets/img/dosa/dosa_144.png" alt="Sample dosa image" id="heroImgEl">
+        </div>
+        <div class="plate-meta">
+          <div class="plate-line">
+            <span class="plate-true" id="heroTrue">dosa · Breakfast</span>
+            <span class="plate-conf" id="heroConf">99.8%</span>
+          </div>
+          <div class="conf-track"><div class="conf-fill" id="heroBar" style="width:99.8%"></div></div>
+          <div class="plate-verdict"><span class="tick">✓</span> correct prediction — frozen ResNet-18 head</div>
+        </div>
+        <div class="plate-blob"></div>
+      </div>
+      <div class="hero-chip chip-a">🍳 Breakfast</div>
+      <div class="hero-chip chip-b">🍛 Main Course</div>
+      <div class="hero-chip chip-c">🥤 Beverage</div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= LIVE DEMO ======================= -->
+<section class="section" id="demo">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">Live demo · real exported predictions</p>
+      <h2>Pick a photo from the test set</h2>
+      <p class="sec-sub">Every card below is a held-out test image. Clicking it replays the
+      model’s actual softmax output — top-3 probabilities straight from
+      <code>results/predictions.json</code>, no re-training required.</p>
+    </div>
+
+    <div class="demo-grid">
+      <div class="gallery-col">
+        <div class="filter-row" id="filters">
+          <button class="filter on" data-f="all">All 7 dishes</button>
+          <button class="filter" data-f="Breakfast">Breakfast</button>
+          <button class="filter" data-f="Main Course">Main Course</button>
+          <button class="filter" data-f="Snack">Snack</button>
+          <button class="filter" data-f="Beverage">Beverage</button>
+        </div>
+        <div class="gallery" id="gallery"><!-- built by app.js --></div>
+      </div>
+
+      <aside class="verdict-card" id="verdict">
+        <div class="verdict-placeholder">
+          <div class="vp-icon">🍽️</div>
+          <p><strong>Select an image</strong><br>to inspect the model’s prediction.</p>
+        </div>
+        <div class="verdict-body" hidden>
+          <div class="verdict-imgwrap"><img id="vImg" src="" alt=""></div>
+          <div class="verdict-tagline">
+            <span class="v-true" id="vTrue"></span>
+            <span class="v-mark" id="vMark">✓ correct</span>
+          </div>
+          <div class="verdict-hero">
+            <span class="v-pred" id="vPred"></span>
+            <span class="v-conf" id="vConf"></span>
+          </div>
+          <div class="ring-wrap">
+            <svg viewBox="0 0 120 120" class="ring">
+              <circle cx="60" cy="60" r="52" class="ring-bg"/>
+              <circle cx="60" cy="60" r="52" class="ring-fg" id="vRing"/>
+            </svg>
+            <span class="ring-label" id="vRingLabel">0%</span>
+          </div>
+          <div class="top3" id="vTop3"><!-- bars --></div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= MENU / CLASS EXPLORER ======================= -->
+<section class="section alt" id="menu">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">The menu · per-class report card</p>
+      <h2>Seven dishes, four meal slots</h2>
+      <p class="sec-sub">Accuracy per class on the 112-image test split, straight from
+      <code>results/category_accuracy.csv</code>.</p>
+    </div>
+    <div class="menu-grid" id="menuGrid"><!-- built by app.js --></div>
+  </div>
+</section>
+
+<!-- ======================= RESULTS ======================= -->
+<section class="section" id="results">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">Evaluation · what the numbers say</p>
+      <h2>Category scoreboard & the one slip-up</h2>
+    </div>
+
+    <div class="res-grid">
+      <div class="card">
+        <h3>Accuracy by meal category</h3>
+        <div class="cat-bars" id="catBars"></div>
+        <p class="foot-note">Sample-weighted per-class accuracy grouped by meal category
+        (<code>category_accuracy_summary.csv</code>).</p>
+      </div>
+      <div class="card">
+        <h3>Where the 1 error lives</h3>
+        <div class="slip">
+          <div class="slip-big"><span class="n-ok">111</span><span class="slash">/</span><span class="n-all">112</span></div>
+          <p>test images classified correctly. The single miss: one
+          <strong>veg biryani</strong> read as <strong>paneer curry</strong> — both
+          Main-Course bowls with warm palettes.</p>
+        </div>
+        <div class="mini-table" id="macroTable">
+          <div class="mt-row mt-head"><span>metric</span><span>score</span></div>
+          <div class="mt-row"><span>macro precision</span><span>0.9916</span></div>
+          <div class="mt-row"><span>macro recall</span><span>0.9911</span></div>
+          <div class="mt-row"><span>macro F1</span><span>0.9911</span></div>
+          <div class="mt-row"><span>transfer gain vs random-init</span><span>+16.1 pts</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= PIPELINE ======================= -->
+<section class="section alt" id="pipeline">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">Under the hood · four stages</p>
+      <h2>From raw pixels to “that’s a dosa”</h2>
+    </div>
+    <div class="pipe-grid">
+      <div class="pipe-card"><div class="pipe-n">01</div><h3>Dataset builder</h3>
+        <p>1,120 seeded, mobile-style food photos — 160 per dish — with plate-shape and
+        palette signatures, split 896 / 112 / 112.</p></div>
+      <div class="pipe-card"><div class="pipe-n">02</div><h3>Camera augmentation</h3>
+        <p>±25° rotation, brightness jitter, Gaussian blur and textured table backgrounds
+        simulate real phone photography.</p></div>
+      <div class="pipe-card"><div class="pipe-n">03</div><h3>Frozen ResNet-18</h3>
+        <p>ImageNet-pretrained backbone converts each 224×224 crop to a 512-d feature.
+        Only the 512→7 head trains.</p></div>
+      <div class="pipe-card"><div class="pipe-n">04</div><h3>Softmax top-3</h3>
+        <p>Cross-entropy + Adam for 6 epochs; inference returns the dish label and
+        top-3 probabilities shown in this demo.</p></div>
+    </div>
+    <div class="run-strip">
+      <code>python run_all.py</code><span>→</span><code>python frontend/build_demo_data.py</code><span>→</span>
+      <code>python -m http.server 8000 --directory frontend</code>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div>
+      <strong>ThaliScan</strong> — Vegetarian Food Image Classification using Transfer Learning<br>
+      <span>Group 4 · B.Tech AI &amp; ML (2023–2027) · Faculty of Engineering &amp; Technology · Guide: Mr. Rahul Rawat</span>
+    </div>
+    <div class="foot-right">ResNet-18 · PyTorch · CPU-trained in minutes</div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

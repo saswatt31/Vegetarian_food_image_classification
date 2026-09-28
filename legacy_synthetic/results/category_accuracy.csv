@@ -1,0 +1,8 @@
+class,meal_category,samples,accuracy
+dosa,Breakfast,16,1.0
+idli,Breakfast,16,1.0
+lassi,Beverage,16,1.0
+paneer_curry,Main Course,16,0.9375
+samosa,Snack,16,1.0
+veg_biryani,Main Course,16,1.0
+veg_thali,Main Course,16,1.0

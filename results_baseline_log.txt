@@ -1,0 +1,15 @@
+[scratch] epoch 01 | train acc 0.2913 | val acc 0.2143
+[scratch] epoch 02 | train acc 0.3739 | val acc 0.4107
+[scratch] epoch 03 | train acc 0.6150 | val acc 0.8214
+[scratch] epoch 04 | train acc 0.6161 | val acc 0.6875
+[scratch] epoch 05 | train acc 0.6507 | val acc 0.8482
+[scratch] epoch 06 | train acc 0.7020 | val acc 0.8571
+{
+  "model": "ResNet-18 (random init, frozen backbone, head-only)",
+  "epochs": 6,
+  "best_val_accuracy": 0.8571,
+  "best_epoch": 6,
+  "test_accuracy": 0.8304,
+  "test_samples": 112
+}
+saved C:\Users\saswa\IBM-project\1_vegetarian_food_image_classification\results\baseline_scratch.json

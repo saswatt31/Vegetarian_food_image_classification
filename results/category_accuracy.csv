@@ -1,0 +1,4 @@
+meal_category,classes,samples,correct,accuracy
+Breakfast,101/114,114,101,0.8860
+Main Meal,100/114,114,100,0.8772
+Snack,68/76,76,68,0.8947

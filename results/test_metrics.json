@@ -1,0 +1,27 @@
+{
+ "accuracy": 0.8849,
+ "precision_macro": 0.8924,
+ "recall_macro": 0.8849,
+ "f1_macro": 0.886,
+ "f1_weighted": 0.886,
+ "precision_weighted": 0.8924,
+ "recall_weighted": 0.8849,
+ "test_images": 304,
+ "per_category": {
+  "Main Meal": {
+   "correct": 100,
+   "n": 114,
+   "accuracy": 0.8772
+  },
+  "Breakfast": {
+   "correct": 101,
+   "n": 114,
+   "accuracy": 0.886
+  },
+  "Snack": {
+   "correct": 68,
+   "n": 76,
+   "accuracy": 0.8947
+  }
+ }
+}

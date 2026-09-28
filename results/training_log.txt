@@ -1,0 +1,16 @@
+device: cpu | classes (8): ['chapati', 'dhokla', 'idli', 'kadai_paneer', 'masala_dosa', 'pakode', 'pav_bhaji', 'samosa']
+[stage1-frozen] epoch 01 | train loss 1.7365 acc 0.3914 | val loss 1.2903 acc 0.6486 | 63s
+[stage1-frozen] epoch 02 | train loss 1.1497 acc 0.6921 | val loss 1.0005 acc 0.7230 | 58s
+[stage1-frozen] epoch 03 | train loss 0.9401 acc 0.7486 | val loss 0.8262 acc 0.8142 | 55s
+[stage1-frozen] epoch 04 | train loss 0.8247 acc 0.7836 | val loss 0.7731 acc 0.8176 | 54s
+[stage1-frozen] epoch 05 | train loss 0.7854 acc 0.7957 | val loss 0.7553 acc 0.8108 | 54s
+[stage1-frozen] epoch 06 | train loss 0.7604 acc 0.8100 | val loss 0.7362 acc 0.8277 | 54s
+[stage2-finetune] epoch 01 | train loss 0.5410 acc 0.8400 | val loss 0.4098 acc 0.8750 | 75s
+[stage2-finetune] epoch 02 | train loss 0.2246 acc 0.9350 | val loss 0.3433 acc 0.9122 | 74s
+[stage2-finetune] epoch 03 | train loss 0.1372 acc 0.9700 | val loss 0.3679 acc 0.8885 | 76s
+[stage2-finetune] epoch 04 | train loss 0.0866 acc 0.9793 | val loss 0.3476 acc 0.8919 | 80s
+[stage2-finetune] epoch 05 | train loss 0.0577 acc 0.9914 | val loss 0.3408 acc 0.8919 | 79s
+[stage2-finetune] epoch 06 | train loss 0.0594 acc 0.9907 | val loss 0.3436 acc 0.8953 | 79s
+
+best: val acc 0.9122 (stage2-finetune, epoch 8) -> models/best_model.pth
+wrote results/training_loss.png, accuracy_curve.png

@@ -1,0 +1,93 @@
+{
+ "classes": {
+  "dhokla": {
+   "available": 289,
+   "after_dedupe": 287,
+   "kept": 250,
+   "category": "Breakfast/Snack",
+   "train": 175,
+   "validation": 37,
+   "test": 38
+  },
+  "idli": {
+   "available": 309,
+   "after_dedupe": 308,
+   "kept": 250,
+   "category": "Breakfast",
+   "train": 175,
+   "validation": 37,
+   "test": 38
+  },
+  "masala_dosa": {
+   "available": 311,
+   "after_dedupe": 305,
+   "kept": 250,
+   "category": "Breakfast",
+   "train": 175,
+   "validation": 37,
+   "test": 38
+  },
+  "pakode": {
+   "available": 278,
+   "after_dedupe": 276,
+   "kept": 250,
+   "category": "Snack",
+   "train": 175,
+   "validation": 37,
+   "test": 38
+  },
+  "pav_bhaji": {
+   "available": 353,
+   "after_dedupe": 347,
+   "kept": 250,
+   "category": "Main Meal",
+   "train": 175,
+   "validation": 37,
+   "test": 38
+  },
+  "kadai_paneer": {
+   "available": 412,
+   "after_dedupe": 410,
+   "kept": 250,
+   "category": "Main Meal",
+   "train": 175,
+   "validation": 37,
+   "test": 38
+  },
+  "samosa": {
+   "available": 262,
+   "after_dedupe": 255,
+   "kept": 250,
+   "category": "Snack",
+   "train": 175,
+   "validation": 37,
+   "test": 38
+  },
+  "chapati": {
+   "available": 413,
+   "after_dedupe": 409,
+   "kept": 250,
+   "category": "Main Meal",
+   "train": 175,
+   "validation": 37,
+   "test": 38
+  }
+ },
+ "duplicates_removed": 30,
+ "near_duplicates_removed": 8,
+ "totals": {
+  "train": 1400,
+  "validation": 296,
+  "test": 304
+ },
+ "selected": {
+  "dhokla": "Breakfast/Snack",
+  "idli": "Breakfast",
+  "masala_dosa": "Breakfast",
+  "pakode": "Snack",
+  "pav_bhaji": "Main Meal",
+  "kadai_paneer": "Main Meal",
+  "samosa": "Snack",
+  "chapati": "Main Meal"
+ }
+}

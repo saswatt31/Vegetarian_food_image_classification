@@ -1,0 +1,22 @@
+TEST-SET EVALUATION (unseen real photographs)
+============================================================
+test images : 304
+accuracy    : 0.8849
+precision   : macro 0.8924 | weighted 0.8924
+recall      : macro 0.8849 | weighted 0.8849
+F1          : macro 0.8860 | weighted 0.8860
+
+              precision    recall  f1-score   support
+
+     chapati     0.8421    0.8421    0.8421        38
+      dhokla     0.9444    0.8947    0.9189        38
+        idli     0.9474    0.9474    0.9474        38
+kadai_paneer     0.8780    0.9474    0.9114        38
+ masala_dosa     0.9118    0.8158    0.8611        38
+      pakode     0.7292    0.9211    0.8140        38
+   pav_bhaji     0.9697    0.8421    0.9014        38
+      samosa     0.9167    0.8684    0.8919        38
+
+    accuracy                         0.8849       304
+   macro avg     0.8924    0.8849    0.8860       304
+weighted avg     0.8924    0.8849    0.8860       304

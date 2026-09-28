@@ -1,0 +1,100 @@
+{
+ "test_accuracy": 0.9911,
+ "total": 112,
+ "correct": 111,
+ "classes": [
+  "dosa",
+  "idli",
+  "lassi",
+  "paneer_curry",
+  "samosa",
+  "veg_biryani",
+  "veg_thali"
+ ],
+ "trainable_params": 3591,
+ "epochs": 6,
+ "batch_size": 32,
+ "lr": "1e-3",
+ "optimizer": "Adam",
+ "backbone": "ResNet-18 (ImageNet1K_V1, frozen)",
+ "per_class": {
+  "dosa": {
+   "category": "Breakfast",
+   "samples": 16,
+   "accuracy": 1.0
+  },
+  "idli": {
+   "category": "Breakfast",
+   "samples": 16,
+   "accuracy": 1.0
+  },
+  "lassi": {
+   "category": "Beverage",
+   "samples": 16,
+   "accuracy": 1.0
+  },
+  "paneer_curry": {
+   "category": "Main Course",
+   "samples": 16,
+   "accuracy": 1.0
+  },
+  "samosa": {
+   "category": "Snack",
+   "samples": 16,
+   "accuracy": 1.0
+  },
+  "veg_biryani": {
+   "category": "Main Course",
+   "samples": 16,
+   "accuracy": 0.9375
+  },
+  "veg_thali": {
+   "category": "Main Course",
+   "samples": 16,
+   "accuracy": 1.0
+  }
+ },
+ "categories": {
+  "Beverage": 1.0,
+  "Breakfast": 1.0,
+  "Main Course": 0.9791666666666666,
+  "Snack": 1.0
+ },
+ "class_meta": {
+  "veg_thali": {
+   "label": "Veg Thali",
+   "category": "Main Course",
+   "blurb": "Full plated meal with katori sides"
+  },
+  "paneer_curry": {
+   "label": "Paneer Curry",
+   "category": "Main Course",
+   "blurb": "Cottage cheese in rich gravy, bowl-served"
+  },
+  "veg_biryani": {
+   "label": "Veg Biryani",
+   "category": "Main Course",
+   "blurb": "Layered rice bowl, grain texture"
+  },
+  "dosa": {
+   "label": "Dosa",
+   "category": "Breakfast",
+   "blurb": "Golden crisp crepe, oval silhouette"
+  },
+  "idli": {
+   "label": "Idli",
+   "category": "Breakfast",
+   "blurb": "Steamed white cakes, paired circles"
+  },
+  "samosa": {
+   "label": "Samosa",
+   "category": "Snack",
+   "blurb": "Fried pastry triangles, crisp edges"
+  },
+  "lassi": {
+   "label": "Lassi",
+   "category": "Beverage",
+   "blurb": "Tall frothy yogurt drink"
+  }
+ }
+}
